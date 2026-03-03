@@ -28,8 +28,8 @@ android {
         applicationId "com.ech.workers"
         minSdkVersion 24
         targetSdkVersion 34
-        versionCode getVersionCode()
-        versionName getVersionName()
+        versionCode 1
+        versionName ＂1.0＂
 
         // 添加 BuildConfig 字段以便在代码中访问版本号
         buildConfigField "String", "VERSION_NAME", "\"${getVersionName()}\""
